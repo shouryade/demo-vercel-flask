@@ -9,6 +9,7 @@ from email.message import EmailMessage
 
 app = Flask(__name__)
 
+# commented static not required
 SAVE_PATH = "/tmp/static/mashup/"
 # app.static_folder = "static"
 
